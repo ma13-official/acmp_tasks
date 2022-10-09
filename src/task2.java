@@ -1,2 +1,31 @@
-package PACKAGE_NAME;public class task2 {
+import java.util.Scanner;
+
+/***
+ * ЗАДАЧА №2
+ * Сумма
+ * (Время: 1 сек. Память: 16 Мб Сложность: 19%)
+ * Требуется посчитать сумму целых чисел, расположенных между числами 1 и N включительно.
+ * <p>
+ * Входные данные
+ * В единственной строке входного файла INPUT.TXT записано единственное целое число N, не превышающее по абсолютной величине 104.
+ * <p>
+ * Выходные данные
+ * В единственную строку выходного файла OUTPUT.TXT нужно вывести одно целое число — сумму чисел, расположенных между 1 и N включительно.
+ */
+public class task2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int out = 0;
+        if (n > 1) {
+            for (int i = 1; i <= n; i++) {
+                out += i;
+            }
+        } else {
+            for (int i = 1; i >= n; i--) {
+                out += i;
+            }
+        }
+        System.out.println(out);
+    }
 }
