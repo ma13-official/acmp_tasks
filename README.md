@@ -1,6 +1,6 @@
 # acmp_tasks
 my solutions to tasks from acmp.ru </n>
-### Решенные задачи
+### solved tasks
 |  number |                                                  task                                                | complexity   | solvability
 | :-----: |               :------------------------------------------------------------------------:             | -----        | -----------
 | 0001    | [A+B](https://github.com/ma13-official/acmp/blob/master/src/task1.java)                              | 2%           | 90%
